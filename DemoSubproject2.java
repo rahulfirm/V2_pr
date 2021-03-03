@@ -15,20 +15,26 @@ import org.apache.commons.lang.text.StrSubstitutor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.sonar.core.util.SettingFormatter;
+import java.security.SecureRandom;
 
 public class DemoSubproject2 { 
 
 	int k;
 	App app;
+	 public static final int BYTE_SIZE = 6;
 	
+    new SecureRandom().nextBytes(mungedBytes);
 	public static void main(String[] args) {
+		
 		int k_subproject;
 	}
 	Reader reader = null;
 	private static DemoSubproject2 fook = null;
 
 	public static DemoSubproject2 getFook() { 
-		
+		byte[] address = null;
+	byte[] mungedBytes = new byte[BYTE_SIZE];
+		new SecureRandom().nextBytes(mungedBytes);
 		 try {
       reader = new InputStreamReader(new FileInputStream(propertyFile), StandardCharsets.UTF_8);
     } catch (Exception e) {
