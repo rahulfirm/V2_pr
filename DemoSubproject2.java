@@ -1,6 +1,7 @@
 package subproject2;
 
 import org.subproject2_A.App;
+import java.io.Reader;
 
 public class DemoSubproject2 { 
 
@@ -10,7 +11,7 @@ public class DemoSubproject2 {
 	public static void main(String[] args) {
 		int k_subproject;
 	}
-	
+	Reader reader = null;
 	private static DemoSubproject2 fook = null;
 
 	public static DemoSubproject2 getFook() { 
@@ -34,6 +35,7 @@ public class DemoSubproject2 {
 		System.out.println("text");
 		try{
 			
+		System.out.println("inside try");
 		}
 		catch(Exception ex){
 			
