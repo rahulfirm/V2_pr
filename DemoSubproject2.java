@@ -49,8 +49,6 @@ public class DemoSubproject2 {
 	}
 	
 	public void x(){
-		Cipher c1 = Cipher.getInstance("DES");
-
 		System.out.println("text");
 		System.out.println("text");
 		try{
