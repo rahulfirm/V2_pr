@@ -34,14 +34,7 @@ public class DemoSubproject2 {
 	public static DemoSubproject2 getFook() { 
 		byte[] address = null;
 	byte[] mungedBytes = new byte[BYTE_SIZE];
-		new SecureRandom().nextBytes(mungedBytes);
-		 try {
-      reader = new InputStreamReader(new FileInputStream(propertyFile), StandardCharsets.UTF_8);
-    } catch (Exception e) {
-      throw new IllegalStateException("Could not read properties from file: " + args[0], e);
-    } finally {
-      IOUtils.closeQuietly(reader);
-    }
+		
 		if (fook==null) {
 			fook = new DemoSubproject2();
 		}                       
