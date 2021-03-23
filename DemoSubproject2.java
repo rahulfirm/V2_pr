@@ -23,7 +23,7 @@ public class DemoSubproject2 {
 	App app;
 	 public static final int BYTE_SIZE = 6;
 	
-    new SecureRandom().nextBytes(mungedBytes);
+   	new SecureRandom().nextBytes(mungedBytes);
 	public static void main(String[] args) {
 		
 		int k_subproject;
@@ -33,7 +33,7 @@ public class DemoSubproject2 {
 
 	public static DemoSubproject2 getFook() { 
 		byte[] address = null;
-	byte[] mungedBytes = new byte[BYTE_SIZE];
+		byte[] mungedBytes = new byte[BYTE_SIZE];
 		
 		if (fook==null) {
 			fook = new DemoSubproject2();
@@ -49,6 +49,8 @@ public class DemoSubproject2 {
 	}
 	
 	public void x(){
+		Cipher c1 = Cipher.getInstance("DES");
+
 		System.out.println("text");
 		System.out.println("text");
 		try{
