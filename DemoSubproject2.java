@@ -17,11 +17,11 @@ public class DemoSubproject2 {
 		
 		if (fook==null) {
 			
-		 System.out.println("text");
+		
 			fook = new DemoSubproject2();
 		}              
 		
-		 System.out.println("text");
+		
 		return fook;
 		
 	}
