@@ -15,7 +15,7 @@ public class DemoSubproject2 {
 
 	public static DemoSubproject2 getFook() { 
 		 System.out.println(""); 
-		 
+		 System.out.println("text");
 		if (fook==null) {
 			fook = new DemoSubproject2();
 		}                       
@@ -30,7 +30,6 @@ public class DemoSubproject2 {
 	}
 	
 	public void x(){
-		System.out.println("text");
 		System.out.println("text");
 		try{
 			
